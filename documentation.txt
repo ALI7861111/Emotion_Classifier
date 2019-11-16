@@ -1,0 +1,14 @@
+This neural network was trained on dataset of the following features as follows:
+
+The data consists of 48x48 pixel grayscale images of faces.
+The faces have been automatically registered so that the face is more or less centered and occupies about the same amount of space in each image.
+The task is to categorize each face based on the emotion shown in the facial expression in to one of seven categories
+ (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral).
+
+The training set consists of 28,709 examples. 
+The public test set used for the leaderboard consists of 3,589 examples. 
+The final test set, which was used to determine the winner of the competition, consists of another 3,589 examples.
+
+The model architecture is explained in another text file.
+
+The accuracy on the training data was 76 % and the accurarcy on test data was 60 %.
